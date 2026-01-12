@@ -41,10 +41,10 @@ export default function ArchikHomesPage() {
       image: "/design-mode/luxury-bedroom-with-furniture-premium-photo_124907-1084.jpg"
     },
     {
-  category: "Living Room",
-  items: ["Sofas", "TV Units", "Coffee Tables", "Bookshelves", "Modern Floor Lamp"],
-  image: "/modern-floor-lamp.jpg"
-}
+  category: "Lighting",
+    items: ["Modern Floor Lamp", "Wall Lamps", "Table Lamps"],
+    image: "/modern-floor-lamp.jpg"
+   }
 
 
   ]
