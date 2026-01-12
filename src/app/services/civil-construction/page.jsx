@@ -36,13 +36,13 @@ export default function CivilConstructionPage() {
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold text-slate-700">Civil Work (Brick, RCC, Plastering)</h4>
+                    <h4 className="font-semibold text-slate-700">Civil Work (Massanory, RCC, Plastering)</h4>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold text-slate-700">Fabricated Structures & Structural Steel</h4>
+                    <h4 className="font-semibold text-slate-700">Pre-Fabricated Structures & Structural Steel(CSB-PEB)</h4>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -85,6 +85,12 @@ export default function CivilConstructionPage() {
                   <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-semibold text-slate-700">Drainage & Stormwater Systems</h4>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <h4 className="font-semibold text-slate-700">Earthquake & Land development</h4>
                   </div>
                 </div>
               </div>

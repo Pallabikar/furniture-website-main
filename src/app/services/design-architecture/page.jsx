@@ -117,7 +117,7 @@ export default function DesignArchitecturePage() {
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold text-slate-700">RCC Design (Slabs, Columns, Beams, Foundations)</h4>
+                    <h4 className="font-semibold text-slate-700">RCC Design (PT design,Slabs, Columns, Beams, Foundations)</h4>
                     <p className="text-slate-600 text-sm">Reinforced concrete design for all structural elements</p>
                   </div>
                 </div>
@@ -140,6 +140,13 @@ export default function DesignArchitecturePage() {
                   <div>
                     <h4 className="font-semibold text-slate-700">Structural Retrofitting</h4>
                     <p className="text-slate-600 text-sm">Strengthening and upgrading existing structures</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <h4 className="font-semibold text-slate-700">waiting</h4>
+                    <p className="text-slate-600 text-sm">Structure stability Certificate</p>
                   </div>
                 </div>
               </div>

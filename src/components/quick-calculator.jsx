@@ -64,7 +64,7 @@ export default function QuickCalculator() {
   const [formData, setFormData] = useState({
     projectType: "",
     propertyType: "", 
-    area: 10000,
+    area: 500,
     serviceType: "",
     finishQuality: "",
     addOns: {
@@ -312,20 +312,20 @@ export default function QuickCalculator() {
                 <div className="relative">
                   <input
                     type="range"
-                    min={10000}
-                    max={100000}
-                    step={1000}
+                    min={500}
+                    max={1000000}
+                    step={500}
                     value={formData.area}
                     onChange={(e) => setFormData({ ...formData, area: Number(e.target.value) })}
                     className="w-full h-2 rounded-lg appearance-none cursor-pointer slider"
                     style={{
-                      background: `linear-gradient(to right, #475569 0%, #475569 ${((formData.area - 10000) / (100000 - 10000)) * 100}%, #e5e7eb ${((formData.area - 10000) / (100000 - 10000)) * 100}%, #e5e7eb 100%)`
+                      background: `linear-gradient(to right, #475569 0%, #475569 ${((formData.area - 500) / (1000000 - 500)) * 100}%, #e5e7eb ${((formData.area - 500) / (1000000 - 500)) * 100}%, #e5e7eb 100%)`
                     }}
                   />
                 </div>
                 <div className="flex justify-between text-sm text-gray-500">
-                  <span>10,000 sq.ft</span>
-                  <span>1,00,000 sq.ft</span>
+                  <span>500 sq.ft</span>
+                  <span>10,00,000 sq.ft</span>
                 </div>
               </div>
             </div>
