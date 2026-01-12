@@ -131,51 +131,48 @@ export const hardcodedProducts = [
     }
   },
   {
-    id: "4",
-    name: "Oak Bedside Table with Lamp",
-    description: "Elegant oak bedside table featuring a drawer and open shelf. Comes with a matching modern lamp for complete bedroom styling.",
-    price: 5999,
-    originalPrice: 7999,
-    category: "bedroom",
-    subcategory: "nightstands",
-    image: "/oak-bedside-table-with-lamp.jpg",
-    images: [
-      {
-        url: "/oak-bedside-table-with-lamp.jpg",
-        alt: "Oak Bedside Table with Lamp",
-        isPrimary: true
-      }
-    ],
-    specifications: {
-      dimensions: {
-        length: 45,
-        width: 35,
-        height: 65,
-        unit: "cm"
-      },
-      weight: 12,
-      material: ["Oak Wood", "Metal Hardware"],
-      color: ["Natural Oak"],
-      style: "Scandinavian"
-    },
-    features: [
-      "Solid oak construction",
-      "One drawer with soft-close mechanism",
-      "Open shelf for storage",
-      "Includes matching lamp",
-      "Cable management hole"
-    ],
-    tags: ["oak", "bedside", "nightstand", "bedroom", "lamp"],
-    isActive: true,
-    isFeatured: false,
-    inStock: true,
-    rating: {
-      average: 4.7,
-      count: 15
+    
+  id: "4",
+  name: "Modern Floor Lamp",
+  description: "Elegant modern floor lamp perfect for bedrooms and living spaces.",
+  price: 4999,
+  originalPrice: 6999,
+  category: "bedroom",
+  subcategory: "lamps",
+  image: "/modern-floor-lamp.jpg",
+  images: [
+    {
+      url: "/modern-floor-lamp.jpg",
+      alt: "Modern Floor Lamp",
+      isPrimary: true
     }
+  ],
+  specifications: {
+    dimensions: {
+      height: 165,
+      unit: "cm"
+    },
+    weight: 8,
+    material: ["Metal", "Fabric Shade"],
+    color: ["Black", "Warm White"],
+    style: "Modern"
   },
-  {
-    id: "5",
+  features: [
+    "Soft ambient lighting",
+    "Energy efficient bulb",
+    "Stable metal base"
+  ],
+  tags: ["lamp", "floor-lamp", "modern", "bedroom"],
+  isActive: true,
+  isFeatured: false,
+  inStock: true,
+  rating: {
+    average: 4.6,
+    count: 11
+  }
+},
+{
+ id: "5",
     name: "Wooden Dining Chair Set",
     description: "Set of 4 modern wooden dining chairs perfect for contemporary kitchens and dining rooms. Ergonomic design with comfortable seating.",
     price: 7999,
