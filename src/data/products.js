@@ -220,8 +220,46 @@ export const hardcodedProducts = [
       average: 4.4,
       count: 9
     }
-  }
+  },
+  {
+  id: "7",
+  name: "Modern Floor Lamp",
+  description: "Stylish modern floor lamp perfect for living rooms or bedrooms. Adjustable height and energy-efficient LED lighting.",
+  price: 4999,
+  originalPrice: 5999,
+  category: "lighting",
+  subcategory: "floor-lamps",
+  image: "/modern-floor-lamp-1.jpg",  // <- make sure this file is in public/
+  images: [
+    {
+      url: "/modern-floor-lamp-1.jpg",
+      alt: "Modern Floor Lamp",
+      isPrimary: true
+    }
+  ],
+  specifications: {
+    dimensions: { length: 30, width: 30, height: 180, unit: "cm" },
+    weight: 8,
+    material: ["Metal", "Plastic"],
+    color: ["Black", "White"],
+    style: "Modern"
+  },
+  features: [
+    "Adjustable height",
+    "LED compatible",
+    "Energy-efficient",
+    "Sturdy base"
+  ],
+  tags: ["floor-lamp", "modern", "lighting"],
+  isActive: true,
+  isFeatured: false,
+  inStock: true,
+  rating: { average: 4.5, count: 12 }
+}
 ];
+
+  
+
 
 // Helper functions for working with hardcoded products
 export function getAllProducts() {
