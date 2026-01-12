@@ -130,47 +130,9 @@ export const hardcodedProducts = [
       count: 32
     }
   },
-  {
+  
     
-  id: "4",
-  name: "Modern Floor Lamp",
-  description: "Elegant modern floor lamp perfect for bedrooms and living spaces.",
-  price: 4999,
-  originalPrice: 6999,
-  category: "bedroom",
-  subcategory: "lamps",
-  image: "/modern-floor-lamp-1.jpg",
-  images: [
-    {
-      url: "/modern-floor-lamp-1.jpg",
-      alt: "Modern Floor Lamp",
-      isPrimary: true
-    }
-  ],
-  specifications: {
-    dimensions: {
-      height: 165,
-      unit: "cm"
-    },
-    weight: 8,
-    material: ["Metal", "Fabric Shade"],
-    color: ["Black", "Warm White"],
-    style: "Modern"
-  },
-  features: [
-    "Soft ambient lighting",
-    "Energy efficient bulb",
-    "Stable metal base"
-  ],
-  tags: ["lamp", "floor-lamp", "modern", "bedroom"],
-  isActive: true,
-  isFeatured: false,
-  inStock: true,
-  rating: {
-    average: 4.6,
-    count: 11
-  }
-},
+  
 {
  id: "5",
     name: "Wooden Dining Chair Set",

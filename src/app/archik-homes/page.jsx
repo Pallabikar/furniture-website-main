@@ -40,12 +40,7 @@ export default function ArchikHomesPage() {
       items: ["Modular Shelves", "Hidden Storage", "Multi-functional Units"],
       image: "/design-mode/luxury-bedroom-with-furniture-premium-photo_124907-1084.jpg"
     },
-    {
-  category: "Lighting",
-    items: ["Modern Floor Lamp", "Wall Lamps", "Table Lamps"],
-    image: "/modern-floor-lamp-1.jpg"
-   }
-
+    
 
   ]
 
