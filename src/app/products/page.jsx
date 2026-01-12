@@ -11,7 +11,8 @@ export default function ProductsPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Products</h1>
           <p className="text-xl text-slate-200 max-w-3xl mx-auto">
-            Explore our comprehensive range of construction and interior solutions designed for modern living and working spaces.
+            Explore Our Comprehensive Range of Construction and Interior Solutions Designed for Modern Living and Working Spaces
+
           </p>
         </div>
       </section>
