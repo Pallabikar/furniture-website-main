@@ -39,7 +39,14 @@ export default function ArchikHomesPage() {
       category: "Storage Solutions",
       items: ["Modular Shelves", "Hidden Storage", "Multi-functional Units"],
       image: "/design-mode/luxury-bedroom-with-furniture-premium-photo_124907-1084.jpg"
-    }
+    },
+    {
+  category: "Living Room",
+  items: ["Sofas", "TV Units", "Coffee Tables", "Bookshelves", "Modern Floor Lamp"],
+  image: "/modern-floor-lamp.jpg"
+}
+
+
   ]
 
   const specializations = [
