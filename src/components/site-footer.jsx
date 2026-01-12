@@ -147,7 +147,7 @@ export function SiteFooter() {
             <div className="flex gap-3 items-center">
               <div className="px-3 py-1 bg-white rounded text-xs font-bold text-gray-800">UPI</div>
               <div className="px-3 py-1 bg-gray-600 rounded text-xs font-bold text-white">PhonePe</div>
-              <div className="px-2 py-1 bg-gray-500 rounded text-xs text-white">EMI Available</div>
+              
             </div>
           </div>
         </div>
