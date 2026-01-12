@@ -139,10 +139,10 @@ export const hardcodedProducts = [
   originalPrice: 6999,
   category: "bedroom",
   subcategory: "lamps",
-  image: "/modern-floor-lamp.jpg",
+  image: "/modern-floor-lamp-1.jpg",
   images: [
     {
-      url: "/modern-floor-lamp.jpg",
+      url: "/modern-floor-lamp-1.jpg",
       alt: "Modern Floor Lamp",
       isPrimary: true
     }

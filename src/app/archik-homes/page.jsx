@@ -43,7 +43,7 @@ export default function ArchikHomesPage() {
     {
   category: "Lighting",
     items: ["Modern Floor Lamp", "Wall Lamps", "Table Lamps"],
-    image: "/modern-floor-lamp.jpg"
+    image: "/modern-floor-lamp-1.jpg"
    }
 
 
