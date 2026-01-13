@@ -377,6 +377,51 @@ export default function ContactSection() {
                     </button>
                   </div>
                 </div>
+                {/* Address 3 */}
+<div className="flex items-start gap-4">
+  <div className="w-12 h-12 bg-gray-200 rounded-xl flex items-center justify-center flex-shrink-0">
+    <svg
+      className="w-6 h-6 text-gray-600"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+      />
+    </svg>
+  </div>
+
+  <div>
+    <h4 className="font-semibold text-slate-800">
+      Visit Our Office
+    </h4>
+    <p className="text-slate-600 font-medium">
+      Old Town Office
+    </p>
+    <p className="text-slate-600">
+      Plot no-1967, Sriram Nagar, Old Town, Bhubaneswar, Odisha 751002
+    </p>
+    <a
+      href="https://www.google.com/maps/search/?api=1&query=Plot+no-1967,+Sriram+Nagar,+Old+Town,+Bhubaneswar,+Odisha+751002"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-slate-600 hover:text-slate-800 text-sm font-medium mt-1 inline-block transition-colors"
+    >
+      Get Directions →
+    </a>
+  </div>
+</div>
+
               </div>
             </div>
           </div>
