@@ -89,7 +89,7 @@ export default function Team() {
             {/* Quote */}
             <div className="relative">
               <div className="text-4xl font-serif" style={{ color: "var(--brand)", opacity: 0.3 }} aria-hidden="true">"</div>
-              <p className="text-muted-foreground text-sm leading-relaxed -mt-2 relative z-10">
+              <p className="text-muted-foreground text-sm leading-relaxed text-justify -mt-2 relative z-10">
                 {member.quote}
               </p>
             </div>

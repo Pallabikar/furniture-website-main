@@ -7,6 +7,8 @@ dotenv.config(); // 🔥 MUST BE FIRST
 
 import express from "express";
 import cors from "cors";
+import User from './src/models/User.js';
+
 import morgan from "morgan";
 import connectDB from "./src/lib/mongodb.js";
 import productRoutes from "./routes/productRoutes.js";
