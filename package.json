@@ -75,6 +75,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "autoprefixer": "^10.4.23",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
