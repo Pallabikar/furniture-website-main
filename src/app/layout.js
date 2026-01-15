@@ -1,7 +1,7 @@
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
-import "./globals.css"
+import "../styles/globals.css"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { Suspense } from "react"
